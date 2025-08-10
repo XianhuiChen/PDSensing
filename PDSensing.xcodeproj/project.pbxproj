@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2D0EF2802DBB5D80009286C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0EF2652DBB5D7F009286C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0EF26C2DBB5D7F009286C5;
+			remoteInfo = PDSensing;
+		};
+		2D0EF28A2DBB5D80009286C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0EF2652DBB5D7F009286C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0EF26C2DBB5D7F009286C5;
+			remoteInfo = PDSensing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15301D1F2E0C43BE0031AAB6 /* Copy Files - John_Smith */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/John_Smith;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files - John_Smith";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15301D252E0C43F50031AAB6 /* Copy Files - Jane_Johnson */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/Jane_Johnson;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files - Jane_Johnson";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15301D2B2E0C44200031AAB6 /* Copy Files - David_Brown */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/David_Brown;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files - David_Brown";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AD74422E05B0E500EA7257 /* Copy Files - Samuel_Hale */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/Samuel_Hale;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files - Samuel_Hale";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AD74482E05B11A00EA7257 /* Copy Files - AIMed */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/AIMed;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files - AIMed";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D0EF26D2DBB5D7F009286C5 /* PDSensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDSensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0EF27F2DBB5D80009286C5 /* PDSensingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDSensingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0EF2892DBB5D80009286C5 /* PDSensingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDSensingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		15AD74412E05B0CA00EA7257 /* Exceptions for "PDSensing" folder in "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				data/AIMed/tapping_accel.json,
+				data/AIMed/tapping.json,
+				data/AIMed/voice.json,
+				data/AIMed/walking.json,
+				data/David_Brown/tapping_accel.json,
+				data/David_Brown/tapping.json,
+				data/David_Brown/voice.json,
+				data/David_Brown/walking.json,
+				data/Jane_Johnson/tapping_accel.json,
+				data/Jane_Johnson/tapping.json,
+				data/Jane_Johnson/voice.json,
+				data/Jane_Johnson/walking.json,
+				data/John_Smith/tapping_accel.json,
+				data/John_Smith/tapping.json,
+				data/John_Smith/voice.json,
+				data/John_Smith/walking.json,
+				data/README.md,
+				data/Samuel_Hale/tapping_accel.json,
+				data/Samuel_Hale/tapping.json,
+				data/Samuel_Hale/voice.json,
+				data/Samuel_Hale/walking.json,
+			);
+			target = 2D0EF26C2DBB5D7F009286C5 /* PDSensing */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		15301D242E0C43E80031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - John_Smith" phase from "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 15301D1F2E0C43BE0031AAB6 /* Copy Files - John_Smith */;
+			membershipExceptions = (
+				data/John_Smith/tapping_accel.json,
+				data/John_Smith/tapping.json,
+				data/John_Smith/voice.json,
+				data/John_Smith/walking.json,
+			);
+		};
+		15301D2A2E0C44100031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - Jane_Johnson" phase from "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 15301D252E0C43F50031AAB6 /* Copy Files - Jane_Johnson */;
+			membershipExceptions = (
+				data/Jane_Johnson/tapping_accel.json,
+				data/Jane_Johnson/tapping.json,
+				data/Jane_Johnson/voice.json,
+				data/Jane_Johnson/walking.json,
+			);
+		};
+		15301D302E0C44310031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - David_Brown" phase from "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 15301D2B2E0C44200031AAB6 /* Copy Files - David_Brown */;
+			membershipExceptions = (
+				data/David_Brown/tapping_accel.json,
+				data/David_Brown/tapping.json,
+				data/David_Brown/voice.json,
+				data/David_Brown/walking.json,
+			);
+		};
+		15528FC62E1584CB0025B814 /* Exceptions for "PDSensing" folder in "Copy Files - AIMed" phase from "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 15AD74482E05B11A00EA7257 /* Copy Files - AIMed */;
+			membershipExceptions = (
+				data/AIMed/tapping_accel.json,
+				data/AIMed/tapping.json,
+				data/AIMed/voice.json,
+				data/AIMed/walking.json,
+			);
+		};
+		15AD74472E05B10D00EA7257 /* Exceptions for "PDSensing" folder in "Copy Files - Samuel_Hale" phase from "PDSensing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 15AD74422E05B0E500EA7257 /* Copy Files - Samuel_Hale */;
+			membershipExceptions = (
+				data/Samuel_Hale/tapping_accel.json,
+				data/Samuel_Hale/tapping.json,
+				data/Samuel_Hale/voice.json,
+				data/Samuel_Hale/walking.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D0EF26F2DBB5D7F009286C5 /* PDSensing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				15AD74412E05B0CA00EA7257 /* Exceptions for "PDSensing" folder in "PDSensing" target */,
+				15AD74472E05B10D00EA7257 /* Exceptions for "PDSensing" folder in "Copy Files - Samuel_Hale" phase from "PDSensing" target */,
+				15528FC62E1584CB0025B814 /* Exceptions for "PDSensing" folder in "Copy Files - AIMed" phase from "PDSensing" target */,
+				15301D242E0C43E80031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - John_Smith" phase from "PDSensing" target */,
+				15301D2A2E0C44100031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - Jane_Johnson" phase from "PDSensing" target */,
+				15301D302E0C44310031AAB6 /* Exceptions for "PDSensing" folder in "Copy Files - David_Brown" phase from "PDSensing" target */,
+			);
+			path = PDSensing;
+			sourceTree = "<group>";
+		};
+		2D0EF2822DBB5D80009286C5 /* PDSensingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PDSensingTests;
+			sourceTree = "<group>";
+		};
+		2D0EF28C2DBB5D80009286C5 /* PDSensingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PDSensingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0EF26A2DBB5D7F009286C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF27C2DBB5D80009286C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF2862DBB5D80009286C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0EF2642DBB5D7F009286C5 = {
+			isa = PBXGroup;
+			children = (
+				2D0EF26F2DBB5D7F009286C5 /* PDSensing */,
+				2D0EF2822DBB5D80009286C5 /* PDSensingTests */,
+				2D0EF28C2DBB5D80009286C5 /* PDSensingUITests */,
+				2D0EF26E2DBB5D7F009286C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0EF26E2DBB5D7F009286C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0EF26D2DBB5D7F009286C5 /* PDSensing.app */,
+				2D0EF27F2DBB5D80009286C5 /* PDSensingTests.xctest */,
+				2D0EF2892DBB5D80009286C5 /* PDSensingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0EF26C2DBB5D7F009286C5 /* PDSensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0EF2932DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensing" */;
+			buildPhases = (
+				2D0EF2692DBB5D7F009286C5 /* Sources */,
+				2D0EF26A2DBB5D7F009286C5 /* Frameworks */,
+				2D0EF26B2DBB5D7F009286C5 /* Resources */,
+				15AD74422E05B0E500EA7257 /* Copy Files - Samuel_Hale */,
+				15AD74482E05B11A00EA7257 /* Copy Files - AIMed */,
+				15301D1F2E0C43BE0031AAB6 /* Copy Files - John_Smith */,
+				15301D252E0C43F50031AAB6 /* Copy Files - Jane_Johnson */,
+				15301D2B2E0C44200031AAB6 /* Copy Files - David_Brown */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D0EF26F2DBB5D7F009286C5 /* PDSensing */,
+			);
+			name = PDSensing;
+			packageProductDependencies = (
+			);
+			productName = PDSensing;
+			productReference = 2D0EF26D2DBB5D7F009286C5 /* PDSensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0EF27E2DBB5D80009286C5 /* PDSensingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0EF2962DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensingTests" */;
+			buildPhases = (
+				2D0EF27B2DBB5D80009286C5 /* Sources */,
+				2D0EF27C2DBB5D80009286C5 /* Frameworks */,
+				2D0EF27D2DBB5D80009286C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0EF2812DBB5D80009286C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D0EF2822DBB5D80009286C5 /* PDSensingTests */,
+			);
+			name = PDSensingTests;
+			packageProductDependencies = (
+			);
+			productName = PDSensingTests;
+			productReference = 2D0EF27F2DBB5D80009286C5 /* PDSensingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0EF2882DBB5D80009286C5 /* PDSensingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0EF2992DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensingUITests" */;
+			buildPhases = (
+				2D0EF2852DBB5D80009286C5 /* Sources */,
+				2D0EF2862DBB5D80009286C5 /* Frameworks */,
+				2D0EF2872DBB5D80009286C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0EF28B2DBB5D80009286C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D0EF28C2DBB5D80009286C5 /* PDSensingUITests */,
+			);
+			name = PDSensingUITests;
+			packageProductDependencies = (
+			);
+			productName = PDSensingUITests;
+			productReference = 2D0EF2892DBB5D80009286C5 /* PDSensingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0EF2652DBB5D7F009286C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					2D0EF26C2DBB5D7F009286C5 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					2D0EF27E2DBB5D80009286C5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2D0EF26C2DBB5D7F009286C5;
+					};
+					2D0EF2882DBB5D80009286C5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2D0EF26C2DBB5D7F009286C5;
+					};
+				};
+			};
+			buildConfigurationList = 2D0EF2682DBB5D7F009286C5 /* Build configuration list for PBXProject "PDSensing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0EF2642DBB5D7F009286C5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D0EF26E2DBB5D7F009286C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0EF26C2DBB5D7F009286C5 /* PDSensing */,
+				2D0EF27E2DBB5D80009286C5 /* PDSensingTests */,
+				2D0EF2882DBB5D80009286C5 /* PDSensingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0EF26B2DBB5D7F009286C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF27D2DBB5D80009286C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF2872DBB5D80009286C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0EF2692DBB5D7F009286C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF27B2DBB5D80009286C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0EF2852DBB5D80009286C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0EF2812DBB5D80009286C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0EF26C2DBB5D7F009286C5 /* PDSensing */;
+			targetProxy = 2D0EF2802DBB5D80009286C5 /* PBXContainerItemProxy */;
+		};
+		2D0EF28B2DBB5D80009286C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0EF26C2DBB5D7F009286C5 /* PDSensing */;
+			targetProxy = 2D0EF28A2DBB5D80009286C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D0EF2912DBB5D80009286C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0EF2922DBB5D80009286C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0EF2942DBB5D80009286C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDPC7G3V3R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ericwang.19883;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0EF2952DBB5D80009286C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDPC7G3V3R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ericwang.19883;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D0EF2972DBB5D80009286C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIMed.PDSensingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDSensing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PDSensing";
+			};
+			name = Debug;
+		};
+		2D0EF2982DBB5D80009286C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIMed.PDSensingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDSensing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PDSensing";
+			};
+			name = Release;
+		};
+		2D0EF29A2DBB5D80009286C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIMed.PDSensingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDSensing;
+			};
+			name = Debug;
+		};
+		2D0EF29B2DBB5D80009286C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIMed.PDSensingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDSensing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0EF2682DBB5D7F009286C5 /* Build configuration list for PBXProject "PDSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0EF2912DBB5D80009286C5 /* Debug */,
+				2D0EF2922DBB5D80009286C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0EF2932DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0EF2942DBB5D80009286C5 /* Debug */,
+				2D0EF2952DBB5D80009286C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0EF2962DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0EF2972DBB5D80009286C5 /* Debug */,
+				2D0EF2982DBB5D80009286C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0EF2992DBB5D80009286C5 /* Build configuration list for PBXNativeTarget "PDSensingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0EF29A2DBB5D80009286C5 /* Debug */,
+				2D0EF29B2DBB5D80009286C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0EF2652DBB5D7F009286C5 /* Project object */;
+}
