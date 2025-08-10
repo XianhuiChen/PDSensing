@@ -21,11 +21,14 @@ Contains the **algorithm code** for traning a PDSensing model.
 ### 2. `app/`
 Contains the **source code** for the PDSensing iOS application, developed using **Xcode**.  
 
-
-
-
-
-
+## Example of User interface. 
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center; margin-right: 20px;">
+    <img src="ui_1.png" style="width:25%;">
+    <img src="ui_2.png" style="width:25%;">
+  </div>
+</div>
+Our implementation integrates the proposed framework into a user-centered interface design. Our interface design focuses on two primary objectives: (1) PD risk assessment (2) next-round  activity recommendations. The UI example (a) presents the PD diagnosis results via a risk assessment dashboard, which implements a hierarchical information structure to facilitate risk monitoring. After reviewing the current PD result, as shown in the UI example (b), the user would go to the "Activity Recommendation" page for active sensing.
 
 ## Email
 If you have any questions, please email to: [chen.11773@osu.edu](mailto:chen.11773@osu.edu)
