@@ -4,9 +4,9 @@ Parkinson’s disease (PD) is the second most common and irreversible neurodegen
 
 ## Repository Structure
 
-### 1. `app/`
+### 1. `PDSensing_app/`
 Contains the **source code** for the PDSensing iOS application, developed using **Xcode**.  
-This directory includes the implementation of the user interface, data collection modules, and all app-specific logic.
+
 
 ### 2. `model/`
 Contains the **algorithm code** for data processing and analysis.  
