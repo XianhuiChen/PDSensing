@@ -10,11 +10,11 @@ Parkinson’s disease (PD) is the second most common and irreversible neurodegen
 The code is tested with Python 3.8.0, PyTorch 2.0.0, and CUDA 12.4.
 
 To install the dependencies, you can create a virtual environment with
-`
-
+```
+conda create -n PDSensing python==3.8
 conda activate PDSensing
 pip install -r requirements.txt
-`
+```
 
 ## Structure
 
