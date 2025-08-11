@@ -13,16 +13,12 @@ We provide several demo users for testing and demonstration purposes:
 
 These accounts allow you to explore the app's features without affecting real production data.
 
-<<<<<<< HEAD
-
 ## Requirements
 
 - **Xcode** (version X.X or higher)
 - **iOS SDK** (version X.X or higher)
 - A valid Apple Developer account (for deployment to physical devices)
 
-=======
->>>>>>> e785b4a31167d0783ce8b741566a3858d933c258
 ## Getting Started
 
 1. Clone the repository.
