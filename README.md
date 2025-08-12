@@ -39,9 +39,12 @@ pip install -r requirements.txt
 
 ## Example of user interface. 
 <div style="display: flex; justify-content: center;">
-  <div style="text-align: center; margin-right: 20px;">
-    <img src="pic/ui_1.png" style="width:25%;">
-    <img src="pic/ui_2.png" style="width:25%;">
+  <div style="text-align: center; margin-right: 0px;">
+    <img src="pic/ui_1.png" style="width:19%;">
+    <img src="pic/ui_2.png" style="width:19%;">
+    <img src="pic/ui2_voice.png" style="width:19%;">
+    <img src="pic/ui2_tapping.png" style="width:19%;">
+    <img src="pic/ui2_stop.png" style="width:19%;">
   </div>
 </div>
 Our implementation integrates the proposed framework into a user-centered interface design. Our interface design focuses on two primary objectives: (1) PD risk assessment (2) next-round  activity recommendations. The UI example (a) presents the PD diagnosis results via a risk assessment dashboard, which implements a hierarchical information structure to facilitate risk monitoring. After reviewing the current PD result, as shown in the UI example (b), the user would go to the "Activity Recommendation" page for active sensing.
