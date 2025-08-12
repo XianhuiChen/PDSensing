@@ -31,7 +31,7 @@ pip install -r requirements.txt
     |   |-- PDSensing.xcodeproj  
     |   |-- PDSensing/  
     |   |-- PDSensingTests/  
-    |   |--PDSensingUITests/  
+    |   |-- PDSensingUITests/  
     |  
     |-- pic/                                    * Architecture diagram of PDSensing  
 
