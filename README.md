@@ -3,7 +3,7 @@ This is the official PDSensing repository, which includes the Python code for th
 
 
 <div align="center">
-  <img src="pic/PDSensing_app_video.gif" alt="视频演示" />
+  <img src="pic/PDSensing_app_video.gif" alt="视频演示" style="width: 300px; height: auto;" />
 </div>
 
 
