@@ -2,10 +2,9 @@
 This is the official PDSensing repository, which includes the Python code for the algorithm and the Swift code for the app deployment.
 
 
-<!-- <div align="center">
-  <img src="pic/PDSensing_app_video.gif" alt="视频演示" style="width: 300px; height: auto;" />
-</div> -->
-
+<div align="center">
+  <img src="pic/PDSensing_app_video.gif" style="width: 300px; height: auto;" />
+</div> 
 
 
 ## Abstract
